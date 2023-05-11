@@ -1,0 +1,142 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "NAIControllerStorageG1",
+  "sourceName": "contracts/NAIControllerStorage.sol",
+  "abi": [
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "admin",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "comptroller",
+      "outputs": [
+        {
+          "internalType": "contract ComptrollerInterface",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "isNarwhalNAIInitialized",
+      "outputs": [
+        {
+          "internalType": "bool",
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "naiControllerImplementation",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "name": "narwhalNAIMinterIndex",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "narwhalNAIState",
+      "outputs": [
+        {
+          "internalType": "uint224",
+          "name": "index",
+          "type": "uint224"
+        },
+        {
+          "internalType": "uint32",
+          "name": "block",
+          "type": "uint32"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "pendingAdmin",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "pendingNAIControllerImplementation",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x608060405234801561001057600080fd5b5061020e806100206000396000f3fe608060405234801561001057600080fd5b50600436106100885760003560e01c8063cc0fe0881161005b578063cc0fe088146100f1578063f51eb5d21461010d578063f851a44014610145578063fac034fa1461014d57610088565b8063267822471461008d5780634bc16f8a146100b15780635fe3b567146100b95780639348040d146100c1575b600080fd5b610095610155565b604080516001600160a01b039092168252519081900360200190f35b610095610164565b610095610173565b6100c9610182565b604080516001600160e01b03909316835263ffffffff90911660208301528051918290030190f35b6100f96101a0565b604080519115158252519081900360200190f35b6101336004803603602081101561012357600080fd5b50356001600160a01b03166101a9565b60408051918252519081900360200190f35b6100956101bb565b6100956101ca565b6001546001600160a01b031681565b6003546001600160a01b031681565b6004546001600160a01b031681565b6005546001600160e01b03811690600160e01b900463ffffffff1682565b60065460ff1681565b60076020526000908152604090205481565b6000546001600160a01b031681565b6002546001600160a01b03168156fea265627a7a72315820accdcce7cda7af8446ff06d6432f150c480704623a1a9469f0127e1a5c3a609664736f6c63430005100032",
+  "deployedBytecode": "0x608060405234801561001057600080fd5b50600436106100885760003560e01c8063cc0fe0881161005b578063cc0fe088146100f1578063f51eb5d21461010d578063f851a44014610145578063fac034fa1461014d57610088565b8063267822471461008d5780634bc16f8a146100b15780635fe3b567146100b95780639348040d146100c1575b600080fd5b610095610155565b604080516001600160a01b039092168252519081900360200190f35b610095610164565b610095610173565b6100c9610182565b604080516001600160e01b03909316835263ffffffff90911660208301528051918290030190f35b6100f96101a0565b604080519115158252519081900360200190f35b6101336004803603602081101561012357600080fd5b50356001600160a01b03166101a9565b60408051918252519081900360200190f35b6100956101bb565b6100956101ca565b6001546001600160a01b031681565b6003546001600160a01b031681565b6004546001600160a01b031681565b6005546001600160e01b03811690600160e01b900463ffffffff1682565b60065460ff1681565b60076020526000908152604090205481565b6000546001600160a01b031681565b6002546001600160a01b03168156fea265627a7a72315820accdcce7cda7af8446ff06d6432f150c480704623a1a9469f0127e1a5c3a609664736f6c63430005100032",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}

@@ -1,0 +1,4476 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "D:\\E-Learning\\3-2\\KHMT\\core-protocol\\contracts\\AggregatorV2V3Interface.sol": {
+      "lastModificationDate": 1682519489632,
+      "contentHash": "7e3094da6ec8eddac536bea85e5bcf74",
+      "sourceName": "contracts/AggregatorV2V3Interface.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "storageLayout",
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.5.16"
+      ],
+      "artifacts": [
+        "AggregatorV2V3Interface"
+      ]
+    },
+    "D:\\E-Learning\\3-2\\KHMT\\core-protocol\\contracts\\NarwhalChainlinkOracleV2.sol": {
+      "lastModificationDate": 1682519489674,
+      "contentHash": "c6b60dd2441e8c60cd1cf3671f7d82da",
+      "sourceName": "contracts/NarwhalChainlinkOracleV2.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "storageLayout",
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "./PriceOracle.sol",
+        "./NBep20.sol",
+        "./BEP20Interface.sol",
+        "./SafeMath.sol",
+        "./AggregatorV2V3Interface.sol"
+      ],
+      "versionPragmas": [
+        "^0.5.16"
+      ],
+      "artifacts": [
+        "NarwhalChainlinkOracleV2"
+      ]
+    },
+    "D:\\E-Learning\\3-2\\KHMT\\core-protocol\\contracts\\PriceOracle.sol": {
+      "lastModificationDate": 1682519489675,
+      "contentHash": "f87b7cd32a71e29af789acac6d001c23",
+      "sourceName": "contracts/PriceOracle.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "storageLayout",
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "./NToken.sol"
+      ],
+      "versionPragmas": [
+        "^0.5.16"
+      ],
+      "artifacts": [
+        "PriceOracle"
+      ]
+    },
+    "D:\\E-Learning\\3-2\\KHMT\\core-protocol\\contracts\\NBep20.sol": {
+      "lastModificationDate": 1682519489656,
+      "contentHash": "26f2c8fb3e901b93af319e7b9cf38633",
+      "sourceName": "contracts/NBep20.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "storageLayout",
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "./NToken.sol"
+      ],
+      "versionPragmas": [
+        "^0.5.16"
+      ],
+      "artifacts": [
+        "NBep20"
+      ]
+    },
+    "D:\\E-Learning\\3-2\\KHMT\\core-protocol\\contracts\\BEP20Interface.sol": {
+      "lastModificationDate": 1682519489632,
+      "contentHash": "78033a32b9132ebdcf7a6430447800ee",
+      "sourceName": "contracts/BEP20Interface.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "storageLayout",
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.5.16"
+      ],
+      "artifacts": [
+        "BEP20Interface"
+      ]
+    },
+    "D:\\E-Learning\\3-2\\KHMT\\core-protocol\\contracts\\SafeMath.sol": {
+      "lastModificationDate": 1682519489675,
+      "contentHash": "7ab2ba78fb5c81044319430431ba57e9",
+      "sourceName": "contracts/SafeMath.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "storageLayout",
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.5.16"
+      ],
+      "artifacts": [
+        "SafeMath"
+      ]
+    },
+    "D:\\E-Learning\\3-2\\KHMT\\core-protocol\\contracts\\NToken.sol": {
+      "lastModificationDate": 1682519489668,
+      "contentHash": "81050727576ae513e2cc1fa1cf8c9a38",
+      "sourceName": "contracts/NToken.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "storageLayout",
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "./ComptrollerInterface.sol",
+        "./NTokenInterfaces.sol",
+        "./ErrorReporter.sol",
+        "./Exponential.sol",
+        "./EIP20Interface.sol",
+        "./EIP20NonStandardInterface.sol",
+        "./InterestRateModel.sol"
+      ],
+      "versionPragmas": [
+        "^0.5.16"
+      ],
+      "artifacts": [
+        "NToken"
+      ]
+    },
+    "D:\\E-Learning\\3-2\\KHMT\\core-protocol\\contracts\\ComptrollerInterface.sol": {
+      "lastModificationDate": 1682519489632,
+      "contentHash": "aa80a4dbef6ae11cdd2219efdda6877e",
+      "sourceName": "contracts/ComptrollerInterface.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "storageLayout",
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "./NToken.sol",
+        "./PriceOracle.sol"
+      ],
+      "versionPragmas": [
+        "^0.5.16"
+      ],
+      "artifacts": [
+        "ComptrollerInterface",
+        "ComptrollerInterfaceG1",
+        "ComptrollerInterfaceG2",
+        "IComptroller",
+        "INAIVault"
+      ]
+    },
+    "D:\\E-Learning\\3-2\\KHMT\\core-protocol\\contracts\\NTokenInterfaces.sol": {
+      "lastModificationDate": 1682519489669,
+      "contentHash": "38f644b81043b1ee21781a835c023224",
+      "sourceName": "contracts/NTokenInterfaces.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "storageLayout",
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "./ComptrollerInterface.sol",
+        "./InterestRateModel.sol"
+      ],
+      "versionPragmas": [
+        "^0.5.16"
+      ],
+      "artifacts": [
+        "NBep20Interface",
+        "NBep20Storage",
+        "NTokenInterface",
+        "NTokenStorage",
+        "VDelegateInterface",
+        "VDelegationStorage",
+        "VDelegatorInterface"
+      ]
+    },
+    "D:\\E-Learning\\3-2\\KHMT\\core-protocol\\contracts\\ErrorReporter.sol": {
+      "lastModificationDate": 1682519489637,
+      "contentHash": "1890dbf1b1ab411054b60f1f2c9a0e70",
+      "sourceName": "contracts/ErrorReporter.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "storageLayout",
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.5.16"
+      ],
+      "artifacts": [
+        "ComptrollerErrorReporter",
+        "NAIControllerErrorReporter",
+        "TokenErrorReporter"
+      ]
+    },
+    "D:\\E-Learning\\3-2\\KHMT\\core-protocol\\contracts\\Exponential.sol": {
+      "lastModificationDate": 1682519489638,
+      "contentHash": "956b902efa8e8e5d96041e5608a03f19",
+      "sourceName": "contracts/Exponential.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "storageLayout",
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "./CarefulMath.sol",
+        "./ExponentialNoError.sol"
+      ],
+      "versionPragmas": [
+        "^0.5.16"
+      ],
+      "artifacts": [
+        "Exponential"
+      ]
+    },
+    "D:\\E-Learning\\3-2\\KHMT\\core-protocol\\contracts\\EIP20Interface.sol": {
+      "lastModificationDate": 1682519489636,
+      "contentHash": "cecf6e9598282ae91a0271f9384f4d32",
+      "sourceName": "contracts/EIP20Interface.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "storageLayout",
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.5.16"
+      ],
+      "artifacts": [
+        "EIP20Interface"
+      ]
+    },
+    "D:\\E-Learning\\3-2\\KHMT\\core-protocol\\contracts\\EIP20NonStandardInterface.sol": {
+      "lastModificationDate": 1682519489636,
+      "contentHash": "90a2f7d5f431ef914a5dbc6d8d84d6d4",
+      "sourceName": "contracts/EIP20NonStandardInterface.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "storageLayout",
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.5.16"
+      ],
+      "artifacts": [
+        "EIP20NonStandardInterface"
+      ]
+    },
+    "D:\\E-Learning\\3-2\\KHMT\\core-protocol\\contracts\\InterestRateModel.sol": {
+      "lastModificationDate": 1682519489645,
+      "contentHash": "fb5964ed7be4f74df883634944ff5125",
+      "sourceName": "contracts/InterestRateModel.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "storageLayout",
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.5.16"
+      ],
+      "artifacts": [
+        "InterestRateModel"
+      ]
+    },
+    "D:\\E-Learning\\3-2\\KHMT\\core-protocol\\contracts\\CarefulMath.sol": {
+      "lastModificationDate": 1682519489632,
+      "contentHash": "7dac7a61984cc5d16929af9942d07d7d",
+      "sourceName": "contracts/CarefulMath.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "storageLayout",
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.5.16"
+      ],
+      "artifacts": [
+        "CarefulMath"
+      ]
+    },
+    "D:\\E-Learning\\3-2\\KHMT\\core-protocol\\contracts\\ExponentialNoError.sol": {
+      "lastModificationDate": 1682519489638,
+      "contentHash": "60fa1b965d92fdc7f87d20b5a8ac5a0f",
+      "sourceName": "contracts/ExponentialNoError.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "storageLayout",
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.5.16"
+      ],
+      "artifacts": [
+        "ExponentialNoError"
+      ]
+    },
+    "D:\\E-Learning\\3-2\\KHMT\\core-protocol\\contracts\\WhitePaperInterestRateModel.sol": {
+      "lastModificationDate": 1682519489688,
+      "contentHash": "a3738420dae473ad3b6e66a1310fa4b4",
+      "sourceName": "contracts/WhitePaperInterestRateModel.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "storageLayout",
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "./InterestRateModel.sol",
+        "./SafeMath.sol"
+      ],
+      "versionPragmas": [
+        "^0.5.16"
+      ],
+      "artifacts": [
+        "WhitePaperInterestRateModel"
+      ]
+    },
+    "D:\\E-Learning\\3-2\\KHMT\\core-protocol\\contracts\\NAIControllerStorage.sol": {
+      "lastModificationDate": 1682519489653,
+      "contentHash": "cc9bce76b9d859a76706960a69638fb4",
+      "sourceName": "contracts/NAIControllerStorage.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "storageLayout",
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "./ComptrollerInterface.sol"
+      ],
+      "versionPragmas": [
+        "^0.5.16"
+      ],
+      "artifacts": [
+        "NAIControllerStorageG1",
+        "NAIControllerStorageG2",
+        "NAIUnitrollerAdminStorage"
+      ]
+    },
+    "D:\\E-Learning\\3-2\\KHMT\\core-protocol\\contracts\\NAIUnitroller.sol": {
+      "lastModificationDate": 1682519489653,
+      "contentHash": "19001777dde77583451b6cb1f25de045",
+      "sourceName": "contracts/NAIUnitroller.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "storageLayout",
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "./ErrorReporter.sol",
+        "./NAIControllerStorage.sol"
+      ],
+      "versionPragmas": [
+        "^0.5.16"
+      ],
+      "artifacts": [
+        "NAIUnitroller"
+      ]
+    },
+    "D:\\E-Learning\\3-2\\KHMT\\core-protocol\\contracts\\Unitroller.sol": {
+      "lastModificationDate": 1682519489677,
+      "contentHash": "39d9ce52a84a6c365391dc6e65a31fb7",
+      "sourceName": "contracts/Unitroller.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "storageLayout",
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "./ErrorReporter.sol",
+        "./ComptrollerStorage.sol"
+      ],
+      "versionPragmas": [
+        "^0.5.16"
+      ],
+      "artifacts": [
+        "Unitroller"
+      ]
+    },
+    "D:\\E-Learning\\3-2\\KHMT\\core-protocol\\contracts\\ComptrollerStorage.sol": {
+      "lastModificationDate": 1682519489632,
+      "contentHash": "921e7997b7a667a19e47dff82ef6e6a5",
+      "sourceName": "contracts/ComptrollerStorage.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "storageLayout",
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "./NToken.sol",
+        "./PriceOracle.sol",
+        "./NAIControllerInterface.sol",
+        "./ComptrollerLensInterface.sol"
+      ],
+      "versionPragmas": [
+        "^0.5.16"
+      ],
+      "artifacts": [
+        "ComptrollerV1Storage",
+        "ComptrollerV2Storage",
+        "ComptrollerV3Storage",
+        "ComptrollerV4Storage",
+        "ComptrollerV5Storage",
+        "ComptrollerV6Storage",
+        "ComptrollerV7Storage",
+        "ComptrollerV8Storage",
+        "ComptrollerV9Storage",
+        "UnitrollerAdminStorage"
+      ]
+    },
+    "D:\\E-Learning\\3-2\\KHMT\\core-protocol\\contracts\\NAIControllerInterface.sol": {
+      "lastModificationDate": 1682519489652,
+      "contentHash": "854dd120d55d38bfb64e9165a24286be",
+      "sourceName": "contracts/NAIControllerInterface.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "storageLayout",
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "./NToken.sol"
+      ],
+      "versionPragmas": [
+        "^0.5.16"
+      ],
+      "artifacts": [
+        "NAIControllerInterface"
+      ]
+    },
+    "D:\\E-Learning\\3-2\\KHMT\\core-protocol\\contracts\\ComptrollerLensInterface.sol": {
+      "lastModificationDate": 1682519489632,
+      "contentHash": "a65c31024e7de74bcdd5019851e36fd6",
+      "sourceName": "contracts/ComptrollerLensInterface.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "storageLayout",
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "./NToken.sol"
+      ],
+      "versionPragmas": [
+        "^0.5.16"
+      ],
+      "artifacts": [
+        "ComptrollerLensInterface"
+      ]
+    },
+    "D:\\E-Learning\\3-2\\KHMT\\core-protocol\\contracts\\PriceOracleProxy.sol": {
+      "lastModificationDate": 1682519489675,
+      "contentHash": "c3ba37871aebd638a4b6304e7ab4d273",
+      "sourceName": "contracts/PriceOracleProxy.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "storageLayout",
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "./NBep20.sol",
+        "./NToken.sol",
+        "./PriceOracle.sol"
+      ],
+      "versionPragmas": [
+        "^0.5.16"
+      ],
+      "artifacts": [
+        "PriceOracleProxy",
+        "V1PriceOracleInterface"
+      ]
+    },
+    "D:\\E-Learning\\3-2\\KHMT\\core-protocol\\contracts\\SimplePriceOracle.sol": {
+      "lastModificationDate": 1682519489675,
+      "contentHash": "76625957e9a367f570faa8600fe03c5d",
+      "sourceName": "contracts/SimplePriceOracle.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "storageLayout",
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "./PriceOracle.sol",
+        "./NBep20.sol"
+      ],
+      "versionPragmas": [
+        "^0.5.16"
+      ],
+      "artifacts": [
+        "SimplePriceOracle"
+      ]
+    },
+    "D:\\E-Learning\\3-2\\KHMT\\core-protocol\\contracts\\NBep20Immutable.sol": {
+      "lastModificationDate": 1682519489661,
+      "contentHash": "499652401887f0dddfaaea67c6a79057",
+      "sourceName": "contracts/NBep20Immutable.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "storageLayout",
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "./NBep20.sol"
+      ],
+      "versionPragmas": [
+        "^0.5.16"
+      ],
+      "artifacts": [
+        "NBep20Immutable"
+      ]
+    },
+    "D:\\E-Learning\\3-2\\KHMT\\core-protocol\\contracts\\NBep20Delegate.sol": {
+      "lastModificationDate": 1682519489658,
+      "contentHash": "825973e09d97c48f9868a9d3fb9a5bd0",
+      "sourceName": "contracts/NBep20Delegate.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "storageLayout",
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "./NBep20.sol"
+      ],
+      "versionPragmas": [
+        "^0.5.16"
+      ],
+      "artifacts": [
+        "NBep20Delegate"
+      ]
+    },
+    "D:\\E-Learning\\3-2\\KHMT\\core-protocol\\contracts\\NNwlLikeDelegate.sol": {
+      "lastModificationDate": 1682519489663,
+      "contentHash": "72bb0b8894327430210a95eea57ac2a2",
+      "sourceName": "contracts/NNwlLikeDelegate.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "storageLayout",
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "./NBep20Delegate.sol"
+      ],
+      "versionPragmas": [
+        "^0.5.16"
+      ],
+      "artifacts": [
+        "NNwlLikeDelegate",
+        "NwlLike"
+      ]
+    },
+    "D:\\E-Learning\\3-2\\KHMT\\core-protocol\\contracts\\NDaiDelegate.sol": {
+      "lastModificationDate": 1682519489662,
+      "contentHash": "35d8dea6861d7ee880c4666f94bb0681",
+      "sourceName": "contracts/NDaiDelegate.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "storageLayout",
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "./NBep20Delegate.sol"
+      ],
+      "versionPragmas": [
+        "^0.5.16"
+      ],
+      "artifacts": [
+        "DaiJoinLike",
+        "GemLike",
+        "NDaiDelegate",
+        "PotLike",
+        "VatLike"
+      ]
+    },
+    "D:\\E-Learning\\3-2\\KHMT\\core-protocol\\contracts\\NarwhalPriceOracle.sol": {
+      "lastModificationDate": 1682519489674,
+      "contentHash": "e25937c84b93b9d158d52b4c7e75a34a",
+      "sourceName": "contracts/NarwhalPriceOracle.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "storageLayout",
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "./PriceOracle.sol",
+        "./NBep20.sol",
+        "./BEP20Interface.sol",
+        "./SafeMath.sol"
+      ],
+      "versionPragmas": [
+        "^0.5.16"
+      ],
+      "artifacts": [
+        "IStdReference",
+        "NarwhalPriceOracle"
+      ]
+    },
+    "D:\\E-Learning\\3-2\\KHMT\\core-protocol\\contracts\\NarwhalChainlinkOracle.sol": {
+      "lastModificationDate": 1682519489673,
+      "contentHash": "e1a1d76981f4ac191b36e00bcbf5ff1b",
+      "sourceName": "contracts/NarwhalChainlinkOracle.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "storageLayout",
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "./PriceOracle.sol",
+        "./NBep20.sol",
+        "./BEP20Interface.sol",
+        "./SafeMath.sol",
+        "./AggregatorV2V3Interface.sol"
+      ],
+      "versionPragmas": [
+        "^0.5.16"
+      ],
+      "artifacts": [
+        "NarwhalChainlinkOracle"
+      ]
+    },
+    "D:\\E-Learning\\3-2\\KHMT\\core-protocol\\contracts\\Governance\\SXP.sol": {
+      "lastModificationDate": 1682519489644,
+      "contentHash": "04eb3acc5e06b307c8dd848fbbe278b6",
+      "sourceName": "contracts/Governance/SXP.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "storageLayout",
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../SafeMath.sol",
+        "../Ownable.sol",
+        "../BEP20Interface.sol"
+      ],
+      "versionPragmas": [
+        "^0.5.16"
+      ],
+      "artifacts": [
+        "ApproveAndCallFallBack",
+        "SXP",
+        "Tokenlock",
+        "UserLock"
+      ]
+    },
+    "D:\\E-Learning\\3-2\\KHMT\\core-protocol\\contracts\\Ownable.sol": {
+      "lastModificationDate": 1682519489674,
+      "contentHash": "d006d0420c79a7977a2a38eac35bf9c8",
+      "sourceName": "contracts/Ownable.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "storageLayout",
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "./Context.sol"
+      ],
+      "versionPragmas": [
+        "^0.5.16"
+      ],
+      "artifacts": [
+        "Ownable"
+      ]
+    },
+    "D:\\E-Learning\\3-2\\KHMT\\core-protocol\\contracts\\Context.sol": {
+      "lastModificationDate": 1682519489632,
+      "contentHash": "4540499f29ccafd290fd13da4da1837b",
+      "sourceName": "contracts/Context.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "storageLayout",
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.5.16"
+      ],
+      "artifacts": [
+        "Context"
+      ]
+    },
+    "D:\\E-Learning\\3-2\\KHMT\\core-protocol\\contracts\\NTreasury.sol": {
+      "lastModificationDate": 1682519489669,
+      "contentHash": "6e2e77bb512dbdac49d5a7c755b4418c",
+      "sourceName": "contracts/NTreasury.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "storageLayout",
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "./Utils/IBEP20.sol",
+        "./Utils/SafeBEP20.sol",
+        "./Ownable.sol"
+      ],
+      "versionPragmas": [
+        "^0.5.16"
+      ],
+      "artifacts": [
+        "NTreasury"
+      ]
+    },
+    "D:\\E-Learning\\3-2\\KHMT\\core-protocol\\contracts\\Utils\\IBEP20.sol": {
+      "lastModificationDate": 1682519489678,
+      "contentHash": "2d906658ab7d522fe029ce77d7118479",
+      "sourceName": "contracts/Utils/IBEP20.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "storageLayout",
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.5.0"
+      ],
+      "artifacts": [
+        "IBEP20"
+      ]
+    },
+    "D:\\E-Learning\\3-2\\KHMT\\core-protocol\\contracts\\Utils\\SafeBEP20.sol": {
+      "lastModificationDate": 1682519489679,
+      "contentHash": "165b31661da27c81a8d0550099445277",
+      "sourceName": "contracts/Utils/SafeBEP20.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "storageLayout",
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "./IBEP20.sol",
+        "./SafeMath.sol",
+        "./Address.sol"
+      ],
+      "versionPragmas": [
+        "^0.5.0"
+      ],
+      "artifacts": [
+        "SafeBEP20"
+      ]
+    },
+    "D:\\E-Learning\\3-2\\KHMT\\core-protocol\\contracts\\Utils\\SafeMath.sol": {
+      "lastModificationDate": 1682519489679,
+      "contentHash": "db38ab635c06815fde3a173882b890fb",
+      "sourceName": "contracts/Utils/SafeMath.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "storageLayout",
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.5.0"
+      ],
+      "artifacts": [
+        "SafeMath"
+      ]
+    },
+    "D:\\E-Learning\\3-2\\KHMT\\core-protocol\\contracts\\Utils\\Address.sol": {
+      "lastModificationDate": 1682519489677,
+      "contentHash": "5026941ec3c8640d76ab63e3923ba304",
+      "sourceName": "contracts/Utils/Address.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "storageLayout",
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.5.5"
+      ],
+      "artifacts": [
+        "Address"
+      ]
+    },
+    "D:\\E-Learning\\3-2\\KHMT\\core-protocol\\contracts\\VRTVault\\VRTVault.sol": {
+      "lastModificationDate": 1682519489685,
+      "contentHash": "4f3974b62ee84ba82bd11a382f4d7566",
+      "sourceName": "contracts/VRTVault/VRTVault.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "storageLayout",
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../Utils/SafeBEP20.sol",
+        "../Utils/IBEP20.sol",
+        "./VRTVaultProxy.sol",
+        "./VRTVaultStorage.sol"
+      ],
+      "versionPragmas": [
+        "^0.5.16"
+      ],
+      "artifacts": [
+        "VRTVault"
+      ]
+    },
+    "D:\\E-Learning\\3-2\\KHMT\\core-protocol\\contracts\\VRTVault\\VRTVaultProxy.sol": {
+      "lastModificationDate": 1682519489685,
+      "contentHash": "e5561f016ee0a1be5391a3773587e37a",
+      "sourceName": "contracts/VRTVault/VRTVaultProxy.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "storageLayout",
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "./VRTVaultStorage.sol"
+      ],
+      "versionPragmas": [
+        "^0.5.16"
+      ],
+      "artifacts": [
+        "VRTVaultProxy"
+      ]
+    },
+    "D:\\E-Learning\\3-2\\KHMT\\core-protocol\\contracts\\VRTVault\\VRTVaultStorage.sol": {
+      "lastModificationDate": 1682519489686,
+      "contentHash": "505083931a4f32c9626936c79eb67485",
+      "sourceName": "contracts/VRTVault/VRTVaultStorage.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "storageLayout",
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../Utils/SafeMath.sol",
+        "../Utils/IBEP20.sol"
+      ],
+      "versionPragmas": [
+        "^0.5.16"
+      ],
+      "artifacts": [
+        "VRTVaultAdminStorage",
+        "VRTVaultStorage"
+      ]
+    },
+    "D:\\E-Learning\\3-2\\KHMT\\core-protocol\\contracts\\VRT\\VRTConverterStorage.sol": {
+      "lastModificationDate": 1682519489684,
+      "contentHash": "3551614151ab9d259b1ea072aaec10d0",
+      "sourceName": "contracts/VRT/VRTConverterStorage.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "storageLayout",
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../Utils/SafeMath.sol",
+        "../Utils/IBEP20.sol",
+        "./INWLVesting.sol"
+      ],
+      "versionPragmas": [
+        "^0.5.16"
+      ],
+      "artifacts": [
+        "VRTConverterAdminStorage",
+        "VRTConverterStorage"
+      ]
+    },
+    "D:\\E-Learning\\3-2\\KHMT\\core-protocol\\contracts\\VRT\\INWLVesting.sol": {
+      "lastModificationDate": 1682519489680,
+      "contentHash": "b7c178834c2639d46a867550ab2f38cf",
+      "sourceName": "contracts/VRT/INWLVesting.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "storageLayout",
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.5.16"
+      ],
+      "artifacts": [
+        "INWLVesting"
+      ]
+    },
+    "D:\\E-Learning\\3-2\\KHMT\\core-protocol\\contracts\\VRT\\VRTConverter.sol": {
+      "lastModificationDate": 1682519489684,
+      "contentHash": "2c48bbc64964b5c43f546de209d4b122",
+      "sourceName": "contracts/VRT/VRTConverter.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "storageLayout",
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../Utils/IBEP20.sol",
+        "../Utils/SafeBEP20.sol",
+        "./INWLVesting.sol",
+        "./VRTConverterStorage.sol",
+        "./VRTConverterProxy.sol"
+      ],
+      "versionPragmas": [
+        "^0.5.16"
+      ],
+      "artifacts": [
+        "VRTConverter"
+      ]
+    },
+    "D:\\E-Learning\\3-2\\KHMT\\core-protocol\\contracts\\VRT\\VRTConverterProxy.sol": {
+      "lastModificationDate": 1682519489684,
+      "contentHash": "f10473db59e86b08595ccc4f86e4c287",
+      "sourceName": "contracts/VRT/VRTConverterProxy.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "storageLayout",
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "./VRTConverterStorage.sol"
+      ],
+      "versionPragmas": [
+        "^0.5.16"
+      ],
+      "artifacts": [
+        "VRTConverterProxy"
+      ]
+    },
+    "D:\\E-Learning\\3-2\\KHMT\\core-protocol\\contracts\\VRT\\NWLVestingStorage.sol": {
+      "lastModificationDate": 1682519489683,
+      "contentHash": "9d368e70e5c31b30abd5fcdff89bbcf9",
+      "sourceName": "contracts/VRT/NWLVestingStorage.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "storageLayout",
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../Utils/SafeMath.sol",
+        "../Utils/IBEP20.sol"
+      ],
+      "versionPragmas": [
+        "^0.5.16"
+      ],
+      "artifacts": [
+        "NWLVestingAdminStorage",
+        "NWLVestingStorage"
+      ]
+    },
+    "D:\\E-Learning\\3-2\\KHMT\\core-protocol\\contracts\\VRT\\NWLVestingProxy.sol": {
+      "lastModificationDate": 1682519489681,
+      "contentHash": "7c0c5956fcf28b9c74fe6ab3d9c52cba",
+      "sourceName": "contracts/VRT/NWLVestingProxy.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "storageLayout",
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "./NWLVestingStorage.sol"
+      ],
+      "versionPragmas": [
+        "^0.5.16"
+      ],
+      "artifacts": [
+        "NWLVestingProxy"
+      ]
+    },
+    "D:\\E-Learning\\3-2\\KHMT\\core-protocol\\contracts\\VRT\\NWLVesting.sol": {
+      "lastModificationDate": 1682519489681,
+      "contentHash": "bd2cc2a77962de3de89e1a0433b7db62",
+      "sourceName": "contracts/VRT/NWLVesting.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "storageLayout",
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../Utils/IBEP20.sol",
+        "../Utils/SafeBEP20.sol",
+        "./NWLVestingStorage.sol",
+        "./NWLVestingProxy.sol"
+      ],
+      "versionPragmas": [
+        "^0.5.16"
+      ],
+      "artifacts": [
+        "NWLVesting"
+      ]
+    },
+    "D:\\E-Learning\\3-2\\KHMT\\core-protocol\\contracts\\Vault\\NAIVaultStorage.sol": {
+      "lastModificationDate": 1682519489687,
+      "contentHash": "6bec063d6f30f67785d7d40bf63b3005",
+      "sourceName": "contracts/Vault/NAIVaultStorage.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "storageLayout",
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../Utils/SafeMath.sol",
+        "../Utils/IBEP20.sol"
+      ],
+      "versionPragmas": [
+        "^0.5.16"
+      ],
+      "artifacts": [
+        "NAIVaultAdminStorage",
+        "NAIVaultStorage"
+      ]
+    },
+    "D:\\E-Learning\\3-2\\KHMT\\core-protocol\\contracts\\Vault\\NAIVaultProxy.sol": {
+      "lastModificationDate": 1682519489687,
+      "contentHash": "80a3fbb25c0ead3263413d1f4221ce31",
+      "sourceName": "contracts/Vault/NAIVaultProxy.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "storageLayout",
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "./NAIVaultStorage.sol",
+        "./NAIVaultErrorReporter.sol"
+      ],
+      "versionPragmas": [
+        "^0.5.16"
+      ],
+      "artifacts": [
+        "NAIVaultProxy"
+      ]
+    },
+    "D:\\E-Learning\\3-2\\KHMT\\core-protocol\\contracts\\Vault\\NAIVaultErrorReporter.sol": {
+      "lastModificationDate": 1682519489686,
+      "contentHash": "828a1b3446626517e46b74e6a927322d",
+      "sourceName": "contracts/Vault/NAIVaultErrorReporter.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "storageLayout",
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.5.16"
+      ],
+      "artifacts": [
+        "NAIVaultErrorReporter"
+      ]
+    },
+    "D:\\E-Learning\\3-2\\KHMT\\core-protocol\\contracts\\Vault\\NAIVault.sol": {
+      "lastModificationDate": 1682519489686,
+      "contentHash": "7cdaed5489c16b87ab8ce599553f0add",
+      "sourceName": "contracts/Vault/NAIVault.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "storageLayout",
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../Utils/SafeBEP20.sol",
+        "../Utils/IBEP20.sol",
+        "./NAIVaultProxy.sol",
+        "./NAIVaultStorage.sol",
+        "./NAIVaultErrorReporter.sol"
+      ],
+      "versionPragmas": [
+        "^0.5.16"
+      ],
+      "artifacts": [
+        "NAIVault"
+      ]
+    },
+    "D:\\E-Learning\\3-2\\KHMT\\core-protocol\\contracts\\NWLVault\\NWLVaultStorage.sol": {
+      "lastModificationDate": 1682519489673,
+      "contentHash": "d3f132d619372a6e5d1ba13c771d3452",
+      "sourceName": "contracts/NWLVault/NWLVaultStorage.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "storageLayout",
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../Utils/SafeMath.sol",
+        "../Utils/IBEP20.sol"
+      ],
+      "versionPragmas": [
+        "^0.5.16"
+      ],
+      "artifacts": [
+        "NWLVaultAdminStorage",
+        "NWLVaultStorage",
+        "NWLVaultStorageV1"
+      ]
+    },
+    "D:\\E-Learning\\3-2\\KHMT\\core-protocol\\contracts\\NWLVault\\NWLVaultProxy.sol": {
+      "lastModificationDate": 1682519489672,
+      "contentHash": "46aa83d5557588b7a8b84c38bd82ae17",
+      "sourceName": "contracts/NWLVault/NWLVaultProxy.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "storageLayout",
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "./NWLVaultStorage.sol",
+        "./NWLVaultErrorReporter.sol"
+      ],
+      "versionPragmas": [
+        "^0.5.16"
+      ],
+      "artifacts": [
+        "NWLVaultProxy"
+      ]
+    },
+    "D:\\E-Learning\\3-2\\KHMT\\core-protocol\\contracts\\NWLVault\\NWLVaultErrorReporter.sol": {
+      "lastModificationDate": 1682519489671,
+      "contentHash": "a45e465cd3669df2b18949485b2c2171",
+      "sourceName": "contracts/NWLVault/NWLVaultErrorReporter.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "storageLayout",
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.5.16"
+      ],
+      "artifacts": [
+        "NWLVaultErrorReporter"
+      ]
+    },
+    "D:\\E-Learning\\3-2\\KHMT\\core-protocol\\contracts\\NWLVault\\NWLVault.sol": {
+      "lastModificationDate": 1682519489671,
+      "contentHash": "99aa098521e4a7ae9aee47226cbcbcc8",
+      "sourceName": "contracts/NWLVault/NWLVault.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "storageLayout",
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../Utils/ECDSA.sol",
+        "../Utils/SafeBEP20.sol",
+        "../Utils/IBEP20.sol",
+        "./NWLVaultProxy.sol",
+        "./NWLVaultStorage.sol",
+        "./NWLVaultErrorReporter.sol"
+      ],
+      "versionPragmas": [
+        "^0.5.16"
+      ],
+      "artifacts": [
+        "INWLStore",
+        "NWLVault"
+      ]
+    },
+    "D:\\E-Learning\\3-2\\KHMT\\core-protocol\\contracts\\Utils\\ECDSA.sol": {
+      "lastModificationDate": 1682519489678,
+      "contentHash": "3b39575973f51741f57daae6675da62e",
+      "sourceName": "contracts/Utils/ECDSA.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "storageLayout",
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.5.16"
+      ],
+      "artifacts": [
+        "ECDSA"
+      ]
+    },
+    "D:\\E-Learning\\3-2\\KHMT\\core-protocol\\contracts\\Liquidator.sol": {
+      "lastModificationDate": 1682519489650,
+      "contentHash": "3fcaf2d720b350f585fc3f5645c64648",
+      "sourceName": "contracts/Liquidator.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "storageLayout",
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "./ComptrollerInterface.sol",
+        "./NAIControllerInterface.sol",
+        "./NBNB.sol",
+        "./NBep20.sol",
+        "./Utils/ReentrancyGuard.sol",
+        "./Utils/WithAdmin.sol",
+        "./Utils/SafeMath.sol",
+        "./Utils/IBEP20.sol",
+        "./Utils/SafeBEP20.sol"
+      ],
+      "versionPragmas": [
+        "^0.5.16"
+      ],
+      "artifacts": [
+        "Liquidator"
+      ]
+    },
+    "D:\\E-Learning\\3-2\\KHMT\\core-protocol\\contracts\\NBNB.sol": {
+      "lastModificationDate": 1682519489655,
+      "contentHash": "a86769c533d94773cf4b611c49069f5e",
+      "sourceName": "contracts/NBNB.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "storageLayout",
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "./NToken.sol"
+      ],
+      "versionPragmas": [
+        "^0.5.16"
+      ],
+      "artifacts": [
+        "NBNB"
+      ]
+    },
+    "D:\\E-Learning\\3-2\\KHMT\\core-protocol\\contracts\\Utils\\ReentrancyGuard.sol": {
+      "lastModificationDate": 1682519489678,
+      "contentHash": "f07b21009804e24d9d8edcf50c7e6628",
+      "sourceName": "contracts/Utils/ReentrancyGuard.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "storageLayout",
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.5.16"
+      ],
+      "artifacts": [
+        "ReentrancyGuard"
+      ]
+    },
+    "D:\\E-Learning\\3-2\\KHMT\\core-protocol\\contracts\\Utils\\WithAdmin.sol": {
+      "lastModificationDate": 1682519489680,
+      "contentHash": "8f32262844994f68a82d2b538fd3ac10",
+      "sourceName": "contracts/Utils/WithAdmin.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "storageLayout",
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.5.16"
+      ],
+      "artifacts": [
+        "WithAdmin"
+      ]
+    },
+    "D:\\E-Learning\\3-2\\KHMT\\core-protocol\\contracts\\FlashLiquidateAndSwap\\FlashLiquidateAndSwap.sol": {
+      "lastModificationDate": 1682519489639,
+      "contentHash": "01f3abd0a10a528fe52cdb99d6b0aa60",
+      "sourceName": "contracts/FlashLiquidateAndSwap/FlashLiquidateAndSwap.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "storageLayout",
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "./UniswapInterface.sol",
+        "../Utils/SafeMath.sol",
+        "../ComptrollerInterface.sol",
+        "../NTokenInterfaces.sol",
+        "./IWETH.sol",
+        "../Utils/SafeBEP20.sol",
+        "../Utils/WithAdmin.sol",
+        "../Ownable.sol",
+        "../NAIControllerInterface.sol"
+      ],
+      "versionPragmas": [
+        "^0.5.16"
+      ],
+      "artifacts": [
+        "FlashLiquidateAndSwap",
+        "INBNB",
+        "INToken",
+        "IPancakeCallee"
+      ]
+    },
+    "D:\\E-Learning\\3-2\\KHMT\\core-protocol\\contracts\\FlashLiquidateAndSwap\\UniswapInterface.sol": {
+      "lastModificationDate": 1682519489640,
+      "contentHash": "d3945c07bc5500d1805b329007b0bd0c",
+      "sourceName": "contracts/FlashLiquidateAndSwap/UniswapInterface.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "storageLayout",
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.5.16"
+      ],
+      "artifacts": [
+        "IUniswapV2Factory",
+        "IUniswapV2Pair",
+        "IUniswapV2Router01",
+        "IUniswapV2Router02"
+      ]
+    },
+    "D:\\E-Learning\\3-2\\KHMT\\core-protocol\\contracts\\FlashLiquidateAndSwap\\IWETH.sol": {
+      "lastModificationDate": 1682519489639,
+      "contentHash": "8b484229f3f26aac8146683240827d30",
+      "sourceName": "contracts/FlashLiquidateAndSwap/IWETH.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "storageLayout",
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.5.16"
+      ],
+      "artifacts": [
+        "IWETH"
+      ]
+    },
+    "D:\\E-Learning\\3-2\\KHMT\\core-protocol\\contracts\\Maximillion.sol": {
+      "lastModificationDate": 1682519489651,
+      "contentHash": "39d95319bf712d49d7922496981fec99",
+      "sourceName": "contracts/Maximillion.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "storageLayout",
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "./NBNB.sol"
+      ],
+      "versionPragmas": [
+        "^0.5.16"
+      ],
+      "artifacts": [
+        "Maximillion"
+      ]
+    },
+    "D:\\E-Learning\\3-2\\KHMT\\core-protocol\\contracts\\Faucet\\Faucet.sol": {
+      "lastModificationDate": 1682519489639,
+      "contentHash": "362681711eaa57a7157d01fd08e3bee6",
+      "sourceName": "contracts/Faucet/Faucet.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "storageLayout",
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../Utils/SafeMath.sol",
+        "../Utils/Owned.sol",
+        "../Utils/IBEP20.sol"
+      ],
+      "versionPragmas": [
+        "^0.5.16"
+      ],
+      "artifacts": [
+        "Faucet"
+      ]
+    },
+    "D:\\E-Learning\\3-2\\KHMT\\core-protocol\\contracts\\Utils\\Owned.sol": {
+      "lastModificationDate": 1682519489678,
+      "contentHash": "05c52d0c961e71cd694576050710a67f",
+      "sourceName": "contracts/Utils/Owned.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "storageLayout",
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.5.16"
+      ],
+      "artifacts": [
+        "Owned"
+      ]
+    },
+    "D:\\E-Learning\\3-2\\KHMT\\core-protocol\\contracts\\Utils\\Tokenlock.sol": {
+      "lastModificationDate": 1682519489679,
+      "contentHash": "cbb075d77418e84d90627bccdf6e1351",
+      "sourceName": "contracts/Utils/Tokenlock.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "storageLayout",
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "./Owned.sol"
+      ],
+      "versionPragmas": [
+        "^0.5.16"
+      ],
+      "artifacts": [
+        "Tokenlock"
+      ]
+    },
+    "D:\\E-Learning\\3-2\\KHMT\\core-protocol\\contracts\\Tokens\\VRT.sol": {
+      "lastModificationDate": 1682519489676,
+      "contentHash": "c10ef5381fc2b9e3bcbec2bdf8eb4a99",
+      "sourceName": "contracts/Tokens/VRT.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "storageLayout",
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../Utils/Tokenlock.sol"
+      ],
+      "versionPragmas": [
+        "^0.5.16"
+      ],
+      "artifacts": [
+        "VRT"
+      ]
+    },
+    "D:\\E-Learning\\3-2\\KHMT\\core-protocol\\contracts\\Tokens\\MockToken.sol": {
+      "lastModificationDate": 1682519489676,
+      "contentHash": "f4e423369899d3daa367c182a6ee4213",
+      "sourceName": "contracts/Tokens/MockToken.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "storageLayout",
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../Utils/Tokenlock.sol"
+      ],
+      "versionPragmas": [
+        "^0.5.16"
+      ],
+      "artifacts": [
+        "MockToken"
+      ]
+    },
+    "D:\\E-Learning\\3-2\\KHMT\\core-protocol\\contracts\\NWLVault\\NWLStore.sol": {
+      "lastModificationDate": 1682519489670,
+      "contentHash": "c6fc064efc7af511aaaf7987e3e63a99",
+      "sourceName": "contracts/NWLVault/NWLStore.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "storageLayout",
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../Utils/SafeBEP20.sol",
+        "../Utils/IBEP20.sol"
+      ],
+      "versionPragmas": [
+        "^0.5.16"
+      ],
+      "artifacts": [
+        "NWLStore"
+      ]
+    },
+    "D:\\E-Learning\\3-2\\KHMT\\core-protocol\\contracts\\Lens\\SnapshotLens.sol": {
+      "lastModificationDate": 1682519489650,
+      "contentHash": "ac7f6213949f2eb511823c4b700294fb",
+      "sourceName": "contracts/Lens/SnapshotLens.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "storageLayout",
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../NToken.sol",
+        "../SafeMath.sol",
+        "../Comptroller.sol",
+        "../EIP20Interface.sol",
+        "../NBep20.sol"
+      ],
+      "versionPragmas": [
+        "^0.5.16"
+      ],
+      "artifacts": [
+        "SnapshotLens"
+      ]
+    },
+    "D:\\E-Learning\\3-2\\KHMT\\core-protocol\\contracts\\Comptroller.sol": {
+      "lastModificationDate": 1682519489632,
+      "contentHash": "519b3efa5018faf7c12439560ee7d060",
+      "sourceName": "contracts/Comptroller.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "storageLayout",
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "./NToken.sol",
+        "./ErrorReporter.sol",
+        "./PriceOracle.sol",
+        "./ComptrollerInterface.sol",
+        "./ComptrollerStorage.sol",
+        "./Unitroller.sol",
+        "./Governance/NWL.sol",
+        "./NAI/NAI.sol",
+        "./ComptrollerLensInterface.sol",
+        "./IAccessControlManager.sol"
+      ],
+      "versionPragmas": [
+        "^0.5.16"
+      ],
+      "artifacts": [
+        "Comptroller"
+      ]
+    },
+    "D:\\E-Learning\\3-2\\KHMT\\core-protocol\\contracts\\Governance\\NWL.sol": {
+      "lastModificationDate": 1682519489644,
+      "contentHash": "533911ed11b44b49da0ca73bc91a7847",
+      "sourceName": "contracts/Governance/NWL.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "storageLayout",
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.5.16"
+      ],
+      "artifacts": [
+        "NWL",
+        "Owned",
+        "Tokenlock"
+      ]
+    },
+    "D:\\E-Learning\\3-2\\KHMT\\core-protocol\\contracts\\NAI\\NAI.sol": {
+      "lastModificationDate": 1682519489651,
+      "contentHash": "0e3bc847e8ac72b61476b2efd5e1141d",
+      "sourceName": "contracts/NAI/NAI.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "storageLayout",
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "./lib.sol"
+      ],
+      "versionPragmas": [
+        "^0.5.16"
+      ],
+      "artifacts": [
+        "NAI"
+      ]
+    },
+    "D:\\E-Learning\\3-2\\KHMT\\core-protocol\\contracts\\IAccessControlManager.sol": {
+      "lastModificationDate": 1682519489645,
+      "contentHash": "675f3cb32074e89bcf60b95e61181d1e",
+      "sourceName": "contracts/IAccessControlManager.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "storageLayout",
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.5.16"
+      ],
+      "artifacts": [
+        "IAccessControlManager"
+      ]
+    },
+    "D:\\E-Learning\\3-2\\KHMT\\core-protocol\\contracts\\NAI\\lib.sol": {
+      "lastModificationDate": 1682519489652,
+      "contentHash": "e380e4676342c40e1e9a96f677ebb5b6",
+      "sourceName": "contracts/NAI/lib.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "storageLayout",
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.5.16"
+      ],
+      "artifacts": [
+        "LibNote"
+      ]
+    },
+    "D:\\E-Learning\\3-2\\KHMT\\core-protocol\\contracts\\Reservoir.sol": {
+      "lastModificationDate": 1682519489675,
+      "contentHash": "1c0d52f80bfe11142c68f332fbc9021e",
+      "sourceName": "contracts/Reservoir.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "storageLayout",
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "./EIP20Interface.sol"
+      ],
+      "versionPragmas": [
+        "^0.5.16"
+      ],
+      "artifacts": [
+        "Reservoir"
+      ]
+    },
+    "D:\\E-Learning\\3-2\\KHMT\\core-protocol\\contracts\\Lens\\NarwhalLens.sol": {
+      "lastModificationDate": 1682519489649,
+      "contentHash": "4c5e9c1f3c8d5016952bf8c1c0facd76",
+      "sourceName": "contracts/Lens/NarwhalLens.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "storageLayout",
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../NBep20.sol",
+        "../NToken.sol",
+        "../PriceOracle.sol",
+        "../EIP20Interface.sol",
+        "../Governance/GovernorAlpha.sol",
+        "../Governance/NWL.sol",
+        "../ComptrollerInterface.sol",
+        "../SafeMath.sol"
+      ],
+      "versionPragmas": [
+        "^0.5.16"
+      ],
+      "artifacts": [
+        "NarwhalLens"
+      ]
+    },
+    "D:\\E-Learning\\3-2\\KHMT\\core-protocol\\contracts\\Governance\\GovernorAlpha.sol": {
+      "lastModificationDate": 1682519489642,
+      "contentHash": "dc2234f080e4c28b747cf626ac964042",
+      "sourceName": "contracts/Governance/GovernorAlpha.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "storageLayout",
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.5.16"
+      ],
+      "artifacts": [
+        "GovernorAlpha",
+        "NWLInterface",
+        "TimelockInterface"
+      ]
+    },
+    "D:\\E-Learning\\3-2\\KHMT\\core-protocol\\contracts\\Lens\\ComptrollerLens.sol": {
+      "lastModificationDate": 1682519489646,
+      "contentHash": "24501314a1093c6e9e44b939d13187f7",
+      "sourceName": "contracts/Lens/ComptrollerLens.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "storageLayout",
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../NBep20.sol",
+        "../NToken.sol",
+        "../EIP20Interface.sol",
+        "../PriceOracle.sol",
+        "../ErrorReporter.sol",
+        "../Comptroller.sol"
+      ],
+      "versionPragmas": [
+        "^0.5.16"
+      ],
+      "artifacts": [
+        "ComptrollerLens"
+      ]
+    },
+    "D:\\E-Learning\\3-2\\KHMT\\core-protocol\\contracts\\NAIController.sol": {
+      "lastModificationDate": 1682519489652,
+      "contentHash": "430310c1354168607d9612f9a37e14f8",
+      "sourceName": "contracts/NAIController.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "storageLayout",
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "./NToken.sol",
+        "./PriceOracle.sol",
+        "./ErrorReporter.sol",
+        "./Exponential.sol",
+        "./NAIControllerStorage.sol",
+        "./NAIUnitroller.sol",
+        "./NAI/NAI.sol"
+      ],
+      "versionPragmas": [
+        "^0.5.16"
+      ],
+      "artifacts": [
+        "ComptrollerImplInterface",
+        "NAIController"
+      ]
+    },
+    "D:\\E-Learning\\3-2\\KHMT\\core-protocol\\contracts\\NBep20Delegator.sol": {
+      "lastModificationDate": 1682519489660,
+      "contentHash": "d35bc250a7f262c877c63e240c2f20f6",
+      "sourceName": "contracts/NBep20Delegator.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "storageLayout",
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "./NTokenInterfaces.sol"
+      ],
+      "versionPragmas": [
+        "^0.5.16"
+      ],
+      "artifacts": [
+        "NBep20Delegator"
+      ]
+    },
+    "D:\\E-Learning\\3-2\\KHMT\\core-protocol\\contracts\\Lens\\InterestRateModelLens.sol": {
+      "lastModificationDate": 1682519489646,
+      "contentHash": "45d089f5df48cd34cc08aebe89c318be",
+      "sourceName": "contracts/Lens/InterestRateModelLens.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "storageLayout",
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../InterestRateModel.sol",
+        "../SafeMath.sol"
+      ],
+      "versionPragmas": [
+        "^0.5.16"
+      ],
+      "artifacts": [
+        "InterestRateModelLens"
+      ]
+    },
+    "D:\\E-Learning\\3-2\\KHMT\\core-protocol\\contracts\\JumpRateModel.sol": {
+      "lastModificationDate": 1682519489646,
+      "contentHash": "21482612991fd500324246c40723c9fe",
+      "sourceName": "contracts/JumpRateModel.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "storageLayout",
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "./InterestRateModel.sol",
+        "./SafeMath.sol"
+      ],
+      "versionPragmas": [
+        "^0.5.16"
+      ],
+      "artifacts": [
+        "JumpRateModel"
+      ]
+    },
+    "D:\\E-Learning\\3-2\\KHMT\\core-protocol\\contracts\\DAIInterestRateModelV2.sol": {
+      "lastModificationDate": 1682519489636,
+      "contentHash": "ad98a875a0cd7bb5a05a8abdb7aac214",
+      "sourceName": "contracts/DAIInterestRateModelV2.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "storageLayout",
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "./JumpRateModel.sol",
+        "./SafeMath.sol"
+      ],
+      "versionPragmas": [
+        "^0.5.16"
+      ],
+      "artifacts": [
+        "DAIInterestRateModelV2",
+        "JugLike",
+        "PotLike"
+      ]
+    },
+    "D:\\E-Learning\\3-2\\KHMT\\core-protocol\\contracts\\Timelock.sol": {
+      "lastModificationDate": 1682519489676,
+      "contentHash": "8025863d3b4036f7ffc40e53cad717ab",
+      "sourceName": "contracts/Timelock.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "storageLayout",
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "./SafeMath.sol"
+      ],
+      "versionPragmas": [
+        "^0.5.16"
+      ],
+      "artifacts": [
+        "Timelock"
+      ]
+    },
+    "D:\\E-Learning\\3-2\\KHMT\\core-protocol\\contracts\\Governance\\GovernorAlpha2.sol": {
+      "lastModificationDate": 1682519489642,
+      "contentHash": "4b2be8fa66f14371a752d09e197fa486",
+      "sourceName": "contracts/Governance/GovernorAlpha2.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "storageLayout",
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.5.16"
+      ],
+      "artifacts": [
+        "GovernorAlpha2",
+        "NWLInterface",
+        "TimelockInterface"
+      ]
+    },
+    "D:\\E-Learning\\3-2\\KHMT\\core-protocol\\contracts\\Governance\\GovernorBravoDelegate.sol": {
+      "lastModificationDate": 1682519489643,
+      "contentHash": "8571fba90899087ef09a78f63b01542c",
+      "sourceName": "contracts/Governance/GovernorBravoDelegate.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "storageLayout",
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "./GovernorBravoInterfaces.sol"
+      ],
+      "versionPragmas": [
+        "^0.5.16"
+      ],
+      "artifacts": [
+        "GovernorBravoDelegate"
+      ]
+    },
+    "D:\\E-Learning\\3-2\\KHMT\\core-protocol\\contracts\\Governance\\GovernorBravoInterfaces.sol": {
+      "lastModificationDate": 1682519489644,
+      "contentHash": "96ed13c57a445812051cdd9f8ddc280c",
+      "sourceName": "contracts/Governance/GovernorBravoInterfaces.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "storageLayout",
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.5.16"
+      ],
+      "artifacts": [
+        "GovernorAlphaInterface",
+        "GovernorBravoDelegateStorageV1",
+        "GovernorBravoDelegateStorageV2",
+        "GovernorBravoDelegatorStorage",
+        "GovernorBravoEvents",
+        "NwlVaultInterface",
+        "TimelockInterface"
+      ]
+    },
+    "D:\\E-Learning\\3-2\\KHMT\\core-protocol\\contracts\\Governance\\GovernorBravoDelegator.sol": {
+      "lastModificationDate": 1682519489643,
+      "contentHash": "6248d8dd665f402202569bd37e1e484c",
+      "sourceName": "contracts/Governance/GovernorBravoDelegator.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "storageLayout",
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "./GovernorBravoInterfaces.sol"
+      ],
+      "versionPragmas": [
+        "^0.5.16"
+      ],
+      "artifacts": [
+        "GovernorBravoDelegator"
+      ]
+    },
+    "D:\\E-Learning\\3-2\\KHMT\\core-protocol\\contracts\\Governance\\AccessControlManager.sol": {
+      "lastModificationDate": 1682519489641,
+      "contentHash": "3f34b7cb32068084fd9aede4b5be8ce4",
+      "sourceName": "contracts/Governance/AccessControlManager.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 10000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "storageLayout",
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/access/AccessControl.sol"
+      ],
+      "versionPragmas": [
+        "0.8.17"
+      ],
+      "artifacts": [
+        "AccessControlManager"
+      ]
+    },
+    "D:\\E-Learning\\3-2\\KHMT\\core-protocol\\node_modules\\@openzeppelin\\contracts\\access\\AccessControl.sol": {
+      "lastModificationDate": 1682650708187,
+      "contentHash": "e6ef731d275b1e7b2995f00fa56d9dab",
+      "sourceName": "@openzeppelin/contracts/access/AccessControl.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 10000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "storageLayout",
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "./IAccessControl.sol",
+        "../utils/Context.sol",
+        "../utils/Strings.sol",
+        "../utils/introspection/ERC165.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "AccessControl"
+      ]
+    },
+    "D:\\E-Learning\\3-2\\KHMT\\core-protocol\\node_modules\\@openzeppelin\\contracts\\utils\\Context.sol": {
+      "lastModificationDate": 1682650708312,
+      "contentHash": "5f2c5c4b6af2dd4551027144797bc8be",
+      "sourceName": "@openzeppelin/contracts/utils/Context.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 10000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "storageLayout",
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Context"
+      ]
+    },
+    "D:\\E-Learning\\3-2\\KHMT\\core-protocol\\node_modules\\@openzeppelin\\contracts\\utils\\Strings.sol": {
+      "lastModificationDate": 1682650709534,
+      "contentHash": "cf46906c4035f51639a22265066a9e78",
+      "sourceName": "@openzeppelin/contracts/utils/Strings.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 10000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "storageLayout",
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Strings"
+      ]
+    },
+    "D:\\E-Learning\\3-2\\KHMT\\core-protocol\\node_modules\\@openzeppelin\\contracts\\access\\IAccessControl.sol": {
+      "lastModificationDate": 1682650709077,
+      "contentHash": "57c84298234411cea19c7c284d86be8b",
+      "sourceName": "@openzeppelin/contracts/access/IAccessControl.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 10000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "storageLayout",
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IAccessControl"
+      ]
+    },
+    "D:\\E-Learning\\3-2\\KHMT\\core-protocol\\node_modules\\@openzeppelin\\contracts\\utils\\introspection\\ERC165.sol": {
+      "lastModificationDate": 1682650708737,
+      "contentHash": "0e7db055ce108f9da7bb6686a00287c0",
+      "sourceName": "@openzeppelin/contracts/utils/introspection/ERC165.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 10000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "storageLayout",
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "./IERC165.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ERC165"
+      ]
+    },
+    "D:\\E-Learning\\3-2\\KHMT\\core-protocol\\node_modules\\@openzeppelin\\contracts\\utils\\introspection\\IERC165.sol": {
+      "lastModificationDate": 1682650709201,
+      "contentHash": "03e6768535ac4da0e9756f1d8a4a018a",
+      "sourceName": "@openzeppelin/contracts/utils/introspection/IERC165.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 10000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "storageLayout",
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IERC165"
+      ]
+    }
+  }
+}

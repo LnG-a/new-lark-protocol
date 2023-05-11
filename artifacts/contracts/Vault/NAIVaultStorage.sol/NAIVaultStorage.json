@@ -1,0 +1,172 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "NAIVaultStorage",
+  "sourceName": "contracts/Vault/NAIVaultStorage.sol",
+  "abi": [
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "accNWLPerShare",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "admin",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "nai",
+      "outputs": [
+        {
+          "internalType": "contract IBEP20",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "naiVaultImplementation",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "nwl",
+      "outputs": [
+        {
+          "internalType": "contract IBEP20",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "nwlBalance",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "pendingAdmin",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "pendingNAIVaultImplementation",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "pendingRewards",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "name": "userInfo",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "amount",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "rewardDebt",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x608060405234801561001057600080fd5b50610212806100206000396000f3fe608060405234801561001057600080fd5b506004361061009e5760003560e01c80635b0a8a07116100665780635b0a8a071461013057806364aa44db14610138578063eded3fda14610140578063f30f7c0514610148578063f851a440146101505761009e565b80630f9eab09146100a35780631959a002146100c757806323dc14d314610106578063267822471461010e5780633f4470da14610116575b600080fd5b6100ab610158565b604080516001600160a01b039092168252519081900360200190f35b6100ed600480360360208110156100dd57600080fd5b50356001600160a01b0316610167565b6040805192835260208301919091528051918290030190f35b6100ab610180565b6100ab61018f565b61011e61019e565b60408051918252519081900360200190f35b6100ab6101a4565b61011e6101b3565b61011e6101b9565b6100ab6101bf565b6100ab6101ce565b6003546001600160a01b031681565b6009602052600090815260409020805460019091015482565b6002546001600160a01b031681565b6001546001600160a01b031681565b60065481565b6005546001600160a01b031681565b60075481565b60085481565b6004546001600160a01b031681565b6000546001600160a01b03168156fea265627a7a723158205f5b9c31c4180f1dc3ec0dc55cda1eac18485ccbba713dc9a45df6ec28ec3dfc64736f6c63430005100032",
+  "deployedBytecode": "0x608060405234801561001057600080fd5b506004361061009e5760003560e01c80635b0a8a07116100665780635b0a8a071461013057806364aa44db14610138578063eded3fda14610140578063f30f7c0514610148578063f851a440146101505761009e565b80630f9eab09146100a35780631959a002146100c757806323dc14d314610106578063267822471461010e5780633f4470da14610116575b600080fd5b6100ab610158565b604080516001600160a01b039092168252519081900360200190f35b6100ed600480360360208110156100dd57600080fd5b50356001600160a01b0316610167565b6040805192835260208301919091528051918290030190f35b6100ab610180565b6100ab61018f565b61011e61019e565b60408051918252519081900360200190f35b6100ab6101a4565b61011e6101b3565b61011e6101b9565b6100ab6101bf565b6100ab6101ce565b6003546001600160a01b031681565b6009602052600090815260409020805460019091015482565b6002546001600160a01b031681565b6001546001600160a01b031681565b60065481565b6005546001600160a01b031681565b60075481565b60085481565b6004546001600160a01b031681565b6000546001600160a01b03168156fea265627a7a723158205f5b9c31c4180f1dc3ec0dc55cda1eac18485ccbba713dc9a45df6ec28ec3dfc64736f6c63430005100032",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}

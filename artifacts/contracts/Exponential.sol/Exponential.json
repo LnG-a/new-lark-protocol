@@ -1,0 +1,10 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "Exponential",
+  "sourceName": "contracts/Exponential.sol",
+  "abi": [],
+  "bytecode": "0x6080604052348015600f57600080fd5b50603e80601d6000396000f3fe6080604052600080fdfea265627a7a72315820b4a0e2ffa9e260c785c6d7396bc8a8dbcd0bd61915598b37639c593b45c1112764736f6c63430005100032",
+  "deployedBytecode": "0x6080604052600080fdfea265627a7a72315820b4a0e2ffa9e260c785c6d7396bc8a8dbcd0bd61915598b37639c593b45c1112764736f6c63430005100032",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}

@@ -1,0 +1,10 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "ECDSA",
+  "sourceName": "contracts/Utils/ECDSA.sol",
+  "abi": [],
+  "bytecode": "0x6080604052348015600f57600080fd5b50603e80601d6000396000f3fe6080604052600080fdfea265627a7a723158206094c86df098f8c96d2d06bed0e94bbdb904a6f4b0a602b0919b213da73333e664736f6c63430005100032",
+  "deployedBytecode": "0x6080604052600080fdfea265627a7a723158206094c86df098f8c96d2d06bed0e94bbdb904a6f4b0a602b0919b213da73333e664736f6c63430005100032",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}

@@ -1,0 +1,221 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "VRTConverterStorage",
+  "sourceName": "contracts/VRT/VRTConverterStorage.sol",
+  "abi": [
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "_notEntered",
+      "outputs": [
+        {
+          "internalType": "bool",
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "admin",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "conversionEndTime",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "conversionPeriod",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "conversionRatio",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "conversionStartTime",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "implementation",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "initialized",
+      "outputs": [
+        {
+          "internalType": "bool",
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "nwl",
+      "outputs": [
+        {
+          "internalType": "contract IBEP20",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "nwlVesting",
+      "outputs": [
+        {
+          "internalType": "contract INWLVesting",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "pendingAdmin",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "pendingImplementation",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "totalVrtConverted",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "vrt",
+      "outputs": [
+        {
+          "internalType": "contract IBEP20",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x608060405234801561001057600080fd5b5061027d806100206000396000f3fe608060405234801561001057600080fd5b50600436106100ea5760003560e01c80636a1a4d361161008c578063d8438ae811610066578063d8438ae814610181578063e775f6ce14610189578063f30f7c0514610191578063f851a44014610199576100ea565b80636a1a4d3614610169578063a9ffd6b214610171578063acc8c92b14610179576100ea565b806326782247116100c8578063267822471461014957806333fca8b114610151578063396f7b23146101595780635c60da1b14610161576100ea565b8063158ef93e146100ef5780631888927a1461010b57806320f6dc5414610125575b600080fd5b6100f76101a1565b604080519115158252519081900360200190f35b6101136101b1565b60408051918252519081900360200190f35b61012d6101b7565b604080516001600160a01b039092168252519081900360200190f35b61012d6101c6565b6101136101d5565b61012d6101db565b61012d6101ea565b6101136101f9565b61012d6101ff565b61011361020e565b6100f7610214565b610113610224565b61012d61022a565b61012d610239565b600354600160a81b900460ff1681565b60095481565b6006546001600160a01b031681565b6001546001600160a01b031681565b60075481565b6003546001600160a01b031681565b6002546001600160a01b031681565b600b5481565b6004546001600160a01b031681565b60085481565b600354600160a01b900460ff1681565b600a5481565b6005546001600160a01b031681565b6000546001600160a01b03168156fea265627a7a72315820c723cb2dacfec73118b2f37a65a5bf7534bd0e058b7ac69f2d4ef3b1b851155864736f6c63430005100032",
+  "deployedBytecode": "0x608060405234801561001057600080fd5b50600436106100ea5760003560e01c80636a1a4d361161008c578063d8438ae811610066578063d8438ae814610181578063e775f6ce14610189578063f30f7c0514610191578063f851a44014610199576100ea565b80636a1a4d3614610169578063a9ffd6b214610171578063acc8c92b14610179576100ea565b806326782247116100c8578063267822471461014957806333fca8b114610151578063396f7b23146101595780635c60da1b14610161576100ea565b8063158ef93e146100ef5780631888927a1461010b57806320f6dc5414610125575b600080fd5b6100f76101a1565b604080519115158252519081900360200190f35b6101136101b1565b60408051918252519081900360200190f35b61012d6101b7565b604080516001600160a01b039092168252519081900360200190f35b61012d6101c6565b6101136101d5565b61012d6101db565b61012d6101ea565b6101136101f9565b61012d6101ff565b61011361020e565b6100f7610214565b610113610224565b61012d61022a565b61012d610239565b600354600160a81b900460ff1681565b60095481565b6006546001600160a01b031681565b6001546001600160a01b031681565b60075481565b6003546001600160a01b031681565b6002546001600160a01b031681565b600b5481565b6004546001600160a01b031681565b60085481565b600354600160a01b900460ff1681565b600a5481565b6005546001600160a01b031681565b6000546001600160a01b03168156fea265627a7a72315820c723cb2dacfec73118b2f37a65a5bf7534bd0e058b7ac69f2d4ef3b1b851155864736f6c63430005100032",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}
